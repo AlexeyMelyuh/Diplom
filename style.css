@@ -1,0 +1,709 @@
+/*RESET.CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*END RESET.CSS*/
+
+.wrapper{
+	max-width: 1920px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+header{
+    background-image: url('./img/Grad.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(to right, #fcb301 50%, #000000 50%);
+}
+
+header .moto_btn, header .btn_down{
+    color: #fffbf0;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 52px;
+}
+
+header .moto_btn:hover{
+    color: #879999;
+}
+
+header .menu{
+    display: none;
+}
+
+header .show{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+
+header .menu a{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 50px;
+    color: #ffffff;
+    text-decoration-line: underline;
+}
+
+header .btn_down{
+    padding-bottom: 90px;
+}
+
+header .logo h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    color: #151515;
+    text-align: center;
+    margin-top: 40vh;
+}
+
+header .logo span{
+    color: #ffffff;
+}
+
+header .motorcycle .motor_img_head{
+    text-align: center;
+    position: relative;
+    bottom: 75px;
+    z-index: 4;
+    max-width: 100%;
+}
+
+header .motorcycle .performance{
+    text-align: center;
+    position: absolute;
+    bottom: 180px;
+    left: 880px;
+}
+
+header .motorcycle .stability{
+    z-index: 5;
+    text-align: center;
+    position: absolute;
+    bottom: 270px;
+    left: 1215px;
+}
+
+header .motorcycle .comfort{
+    z-index: 5;
+    text-align: center;
+    position: absolute;
+    bottom: 221px;
+    left: 518px;
+}
+
+header .motorcycle .control{
+    z-index: 5;
+    text-align: center;
+    position: absolute;
+    bottom: 282px;
+    left: 410px;
+}
+
+.container1{
+    background-image: url('./img/Back_cont2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: initial;
+}
+
+.container1 .description_1 h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 40px;
+    padding-top: 174px;
+}
+
+.container1 .description_1 p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 25px;
+}
+
+.container1 .description_1 .text_1{
+    margin-bottom: 45px;
+}
+
+.container1 .description_1 .text_2{
+    margin-bottom: 28px;
+}
+
+.container1 .description_1 .learn_a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #eca801;
+    text-decoration-line: underline;
+}
+
+.container1 .description_2 .model_moto{
+    padding-top: 174px;
+    max-width: 100%;
+}
+
+.container1 .description_2 .motoc2{
+    z-index: 4;
+    position: relative;
+    bottom: 140px;
+    max-width: 100%;
+}
+
+.container1 .diagramm1, .container1 .diagramm2, .container1 .diagramm3{
+    padding-bottom: 100px; 
+    text-align: center;
+    max-width: 100%;
+}
+
+.container2{
+    background-image: url('./img/Grad.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+
+.container2 .column1 h3, .container2 .column3 h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 470px;
+}
+
+.container2 .column1 .plus{
+    color: #fcb300;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.container2 .column1 .plus_1{
+    display: none;
+}
+
+.container2 .column1 .plus_1_show{
+    display: block;
+}
+
+.container2 .column3 .plus2{
+    color: #fcb300;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.container2 .column3 .plus_2{
+    display: none;
+}
+
+.container2 .column3 .plus_2_show{
+    display: block;
+}
+
+.container2 .column1 p, .container2 .column3 p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #efefef;
+    max-width: 100%;
+    width: 88%;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.container2 .column2{
+    padding-top: 297px;
+    padding-bottom: 320px;
+    background-image: url('./img/Cont3_B.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    max-width: 100%;
+}
+
+.container2 .column2 img{
+    max-width: 100%;
+}
+
+/* .container2 .column2 .shadow{
+    z-index: 3;
+
+} */
+
+.container3{
+    background-image: url('./img/back_cont3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 295px;
+}
+
+.container3 .column1 h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    color: #ffffff; 
+}
+
+.container3 .column1 p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 26px;
+    margin-bottom: 90px;
+}
+
+.container3 .column1 .get{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #dddddd;
+    text-decoration-line: underline;
+}
+
+.container3 .column1 .web{
+    margin-top: 430px;
+    text-decoration-line: none;
+}
+
+.container3 .column1 .web .face, .container3 .column1 .web .twit{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #dddddd;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.container3 .column1 .web{
+    padding-bottom: 48px;
+}
+
+.container3 .column2 iframe{
+    border-radius: 45px;
+    width: 144%;
+    height: 500px;
+}
+
+.container4{
+    background-color: #080808;
+    padding-top: 85px;
+}
+
+.container4 .subs{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #a3a5a9;
+    margin-bottom: 20px;
+}
+
+.container4 .email_input input{
+    background-color: #080808;
+    color: #8d8e92;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+    border: 2px solid #373737;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 370px;
+    outline: none;
+    margin-bottom: 60px;
+}
+
+.container4 .social{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 420px;
+    margin-left: 150px;
+}
+
+.container4 .social p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.container4 .social .icons{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.container4 .border_line{
+    border: 1px solid #2c2c2c;
+    margin-bottom: 48px;
+}
+
+.container4 .list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container4 .list p, .container4 .contact p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #aeb0b5;
+    margin-bottom: 30px;
+}
+
+.container4 .list ul li a, .container4 .contact ul li{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #dedede;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.container4 .contact{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 422px;
+    margin-left: 80px;
+}
+
+.container4 .contact .phone{
+    margin-top: 45px;
+}
+
+.container4 .author{
+    text-align: end;
+    padding-bottom: 80px;
+    margin-top: 50px;
+}
+
+.container4 .author span{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #aeb0b5;
+}
+
+.container4 .author a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #aeb0b5;
+    margin-bottom: 80px;
+}
+
+@media(max-width: 1600px){
+    header .motorcycle .performance{
+        position: absolute;
+        text-align: center;
+        bottom: 180px;
+        left: 740px;
+    }
+    header .motorcycle .stability{
+        position: absolute;
+        text-align: center;
+        bottom: 270px;
+        left: 1060px;
+    }
+    header .motorcycle .comfort{
+        z-index: 5;
+        text-align: center;
+        position: absolute;
+        bottom: 221px;
+        left: 438px;
+    }
+    header .motorcycle .control{
+        z-index: 5;
+        text-align: center;
+        position: absolute;
+        bottom: 280px;
+        left: 330px;
+    }
+    .container3 .column2 iframe{
+        width: 700px;
+        height: 400px;
+    }
+}
+
+@media(max-width: 1366px){
+    .container3 .column2 iframe{
+        width: 650px;
+    }
+    header .motorcycle .performance{
+        position: absolute;
+        text-align: center;
+        bottom: 180px;
+        left: 610px;
+    }
+    header .motorcycle .stability{
+        position: absolute;
+        text-align: center;
+        bottom: 270px;
+        left: 940px;
+    }
+    header .motorcycle .comfort{
+        z-index: 5;
+        text-align: center;
+        position: absolute;
+        bottom: 221px;
+        left: 380px;
+    }
+    header .motorcycle .control{
+        z-index: 5;
+        text-align: center;
+        position: absolute;
+        bottom: 280px;
+        left: 270px;
+    }
+}
+
+@media(max-width: 1280px){
+    header .motorcycle .performance{
+        position: absolute;
+        text-align: center;
+        bottom: 180px;
+        left: 570px;
+    }
+    header .motorcycle .stability{
+        position: absolute;
+        text-align: center;
+        bottom: 270px;
+        left: 895px;
+    }
+    header .motorcycle .comfort{
+        z-index: 5;
+        text-align: center;
+        position: absolute;
+        bottom: 221px;
+        left: 355px;
+    }
+    header .motorcycle .control{
+        z-index: 5;
+        text-align: center;
+        position: absolute;
+        bottom: 280px;
+        left: 250px;
+    }
+}
+
+@media(max-width: 1024px){
+    header .motorcycle .performance{
+        position: absolute;
+        text-align: center;
+        bottom: 180px;
+        left: 430px;
+    }
+    header .motorcycle .stability{
+        position: absolute;
+        text-align: center;
+        bottom: 270px;
+        left: 765px;
+    }
+    header .motorcycle .comfort{
+        z-index: 5;
+        text-align: center;
+        position: absolute;
+        bottom: 221px;
+        left: 295px;
+    }
+    header .motorcycle .control{
+        z-index: 5;
+        text-align: center;
+        position: absolute;
+        bottom: 280px;
+        left: 185px;
+    }
+}
+
+@media(max-width: 800px){
+    header .motorcycle .performance{
+        position: absolute;
+        text-align: center;
+        bottom: 180px;
+        left: 325px;
+    }
+    header .motorcycle .stability{
+        position: absolute;
+        text-align: center;
+        bottom: 270px;
+        left: 590px;
+    }
+    header .motorcycle .comfort{
+        z-index: 5;
+        text-align: center;
+        position: absolute;
+        bottom: 221px;
+        left: 234px;
+        max-width: 100%;
+        width: 62%;
+    }
+    header .motorcycle .control{
+        z-index: 5;
+        text-align: center;
+        position: absolute;
+        bottom: 280px;
+        left: 128px;
+    }
+    .container4 .social{
+        margin-left: 50px;
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width: 768px){
+    header .motorcycle .stability{
+        position: absolute;
+        text-align: center;
+        bottom: 270px;
+        left: 565px;
+    }
+    header .motorcycle .comfort{
+        z-index: 5;
+        text-align: center;
+        position: absolute;
+        bottom: 221px;
+        left: 227px;
+        max-width: 100%;
+        width: 60%;
+    }
+    .container2 .column1 h3, .container2 .column3 h3{
+        margin-top: 75px;
+    }
+    .container4 .social{
+        margin-left: 50px;
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width: 425px){
+    header .logo h1{
+        font-size: 70px;
+        margin-top: 36vh;
+    }
+    header .motorcycle .motor_img_head{
+        bottom: 45px;
+        max-width: 100%;
+        width: 90%;
+    }
+    header .motorcycle .performance{
+        bottom: 75px;
+        left: 126px;
+        max-width: 100%;
+        width: 50%;
+    }
+    header .motorcycle .stability{
+        position: absolute;
+        text-align: center;
+        bottom: 150px;
+        left: 100px;
+    }
+    .container4 .social{
+        margin-left: 0px;
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width: 1196px){
+    .container1 .description_1{
+        text-align: center;
+    }
+    .container1 .description_2{
+        text-align: center;
+    }
+    .container4 .contact{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .container3{
+        padding-top: 100px;
+    }
+    .container3 .column1{
+        text-align: center;
+    }
+    .container3 .column1 .web{
+        margin-top: 40px;
+        margin-left: 45px;
+    }
+    .container3 .column2{
+        text-align: center;
+        padding-bottom: 60px;
+    }
+    .container2 .column1 h3, .container2 .column3 h3{
+        margin-top: 75px;
+    }
+}
+
+@media(max-width: 768px){
+    .container4 .social{
+        margin-left: 50px;
+        padding-bottom: 20px;
+    }
+    .container3 .column2 iframe{
+        width: 520px;
+    }
+}
+
+@media(max-width: 576px){
+    .container3 .column2 iframe{
+        width: 460px;
+    }
+}
